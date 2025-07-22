@@ -1,0 +1,36 @@
+Technical and analytical problem i solved:
+
+S – Situation
+In many cases, people tend to snooze alarms and fall back asleep, reducing morning productivity. I wanted to create a solution that ensured users had to physically wake up and move to turn off the alarm.
+
+T – Task
+My goal was to build an AI-powered alarm system that could detect real physical exercises—like push-ups—using computer vision. The system needed to run in real time, be hardware-efficient, and accurately track user movement to verify exercise completion.
+
+A – Action
+I used MediaPipe for 2D pose estimation to recognize human movements.
+
+Achieved 95% accuracy in detecting correct push-up form and counts.
+
+Deployed the system on a Raspberry Pi, optimizing it to work without GPU acceleration using only Python, NumPy, OpenCV, and Pandas.
+
+Wrote a research paper summarizing the methodology, results, and deployment.
+
+R – Result
+Developed a fully functional, real-time alarm system that only turns off when correct exercises are completed.
+
+The system significantly improves user engagement and productivity, especially for those who struggle with early wake-ups.
+
+The project was well-received and selected for a conference presentation and publication (2025).
+
+Why it counts as both technical & analytical: 
+
+Analytical: Identified a real-world behavioral issue and translated it into a measurable system requirement (exercise recognition)
+
+Technical: Implemented a working solution using AI/ML libraries and tools, optimized for hardware, and supported it with research paper and report.
+
+What I Learned from FITORBIS
+Practical Application of AI/ML: I deepened my understanding of how machine learning and computer vision can solve real-world behavioral problems, beyond just academic use cases.
+
+Research & Communication: Improved my technical writing and communication skills by contributing to a research paper, helping me explain complex ideas clearly and professionally.
+
+Problem-Solving Mindset: Strengthened my ability to break down vague problems into measurable tasks, experiment with solutions, and iterate based on performance data.
